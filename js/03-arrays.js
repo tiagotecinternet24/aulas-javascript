@@ -1,3 +1,5 @@
+// Array também é conhecido como vetor.
+
 // Declarando um array
 let alunos = ["Jon Oliva", "Ozzy Osbourne", "Tom Araya"];
 
