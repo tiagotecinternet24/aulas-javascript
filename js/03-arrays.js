@@ -1,4 +1,4 @@
-// Array também é conhecido como vetor.
+// Array também é conhecido como vetor ou matriz
 
 // Declarando um array
 let alunos = ["Jon Oliva", "Ozzy Osbourne", "Tom Araya"];
