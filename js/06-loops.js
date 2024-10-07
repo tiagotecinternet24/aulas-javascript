@@ -77,12 +77,45 @@ for(const prop in pessoa){
 console.log("\n---");
 
 /* Exercícios
-1) Faça um array chamado "clientes" contendo 3 objetos. Cada objeto deverá ter uma propriedade "identificador" (com valores 1, 2 e 3) e uma propriedade "nome" (com os nomes dos clientes: "Goku", "Naruto" e "Shiryu").
+1) Faça um array chamado "clientes" contendo 3 objetos. 
 
-2) Faça um loop (qualquer um dos que vimos) e mostre no console os dados de cada cliente conforme a seguir:
+Cada objeto deverá ter uma propriedade "identificador" (com valores 1, 2 e 3) e uma propriedade "nome" (com os nomes dos clientes: "Goku", "Naruto" e "Shiryu"). */
+let clientes = [
+    {
+        identificador : 1,
+        nome: "Goku"
+    },
+    {
+        nome: "Naruto",
+        identificador : 2
+    },
+    {
+        nome: "Shiryu",
+        identificador : 3
+    }
+];
+
+console.log(clientes);
+
+
+/* 2) Faça um loop (qualquer um dos que vimos) e mostre no console os dados de cada cliente conforme a seguir:
 - Cliente: Goku, id: 1
 - Cliente: Naruto, id: 2
 - Cliente: Shiryu, id: 3     */
+
+for( const cliente of clientes){
+    /* console.log(cliente.nome);
+    console.log(cliente.identificador); */
+    
+    // Template String/Literal
+    console.log(
+        `Cliente: ${cliente.nome}, id: ${cliente.identificador}`
+    );    
+}
+
+
+
+
 
 
 

@@ -19,7 +19,7 @@ console.log(
 const livro = {
     titulo: "Senhor dos Anéis",
     autor: "J.R.R. Tolkien",
-    volumes: [
+    volumes: [ /* Array indexado */
         "A Sociedade do Anel",
         "As Duas Torres",
         "O Retorno do Rei"
